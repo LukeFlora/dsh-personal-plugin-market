@@ -1,0 +1,91 @@
+pyenv: cannot rehash: /Users/design/.pyenv/shims isn't writable
+{
+  "format": 1,
+  "title": {
+    "en": "Design & DSH Essentials",
+    "zh": "设计与 DSH 精选插件"
+  },
+  "description": {
+    "en": "A small, practical catalog for project continuity and prompt work.",
+    "zh": "只收项目连续性与提示词工作流中值得优先试用的插件。"
+  },
+  "metadata": {
+    "categories": {
+      "project-memory": {
+        "title": {
+          "en": "Project memory",
+          "zh": "项目记忆"
+        }
+      },
+      "prompt-workflow": {
+        "title": {
+          "en": "Prompt workflow",
+          "zh": "提示词工作流"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@yolk_vat-y/dsh-project-memory",
+      "title": {
+        "en": "Project Memory",
+        "zh": "项目记忆"
+      },
+      "description": {
+        "en": "Keeps project notes, files read, and task context available across sessions. Stores data inside each project; review its indexing scope before use.",
+        "zh": "跨会话保存项目任务、已读文件与经验，帮助接续开发。数据写入各项目目录；安装后先检查索引范围。"
+      },
+      "author": "00080000",
+      "homepage": "https://github.com/00080000/dsh-project-memory",
+      "repository": {
+        "url": "https://github.com/00080000/dsh-project-memory"
+      },
+      "metadata": {
+        "category": "project-memory",
+        "labels": ["项目连续性", "本地存储"]
+      },
+      "versions": [
+        {
+          "version": "0.6.5",
+          "publishTimestamp": 1792843200,
+          "source": {
+            "type": "npm"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-prompt-enhance",
+      "title": {
+        "en": "Prompt Enhance",
+        "zh": "提示词增强"
+      },
+      "description": {
+        "en": "Rewrites a draft into a clearer task prompt with a before/after preview; the original stays untouched until you apply it.",
+        "zh": "把草稿整理成更清楚的任务提示词；先预览前后差异，确认后才替换原文。"
+      },
+      "author": "rongxingda",
+      "homepage": "https://github.com/rongxingda/dsh-prompt-enhance",
+      "repository": {
+        "url": "https://github.com/rongxingda/dsh-prompt-enhance"
+      },
+      "metadata": {
+        "category": "prompt-workflow",
+        "labels": ["提示词", "预览后应用"]
+      },
+      "versions": [
+        {
+          "version": "0.2.1",
+          "publishTimestamp": 1792497600,
+          "source": {
+            "type": "npm"
+          },
+          "engines": {
+            "dsh": ">=0.1.1-rc.2"
+          }
+        }
+      ]
+    }
+  ]
+}
