@@ -1,4 +1,3 @@
-pyenv: cannot rehash: /Users/design/.pyenv/shims isn't writable
 # 设计与 DSH 精选插件
 
 这是一个供 DeepSeek Harness「插件 → 发现」添加的轻量市场索引。它从社区目录中只保留两个与你的项目连续性、提示词工作流直接相关的插件，避免把整个社区清单搬进来。你现有的专家 Bot 团队、协作能力和插件发现组件已经在用，因此首版不再收录重复的多智能体管理插件。
