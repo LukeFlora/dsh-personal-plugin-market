@@ -41,8 +41,7 @@
         "url": "https://github.com/00080000/dsh-project-memory"
       },
       "metadata": {
-        "category": "project-memory",
-        "labels": ["项目连续性", "本地存储"]
+        "category": "project-memory"
       },
       "versions": [
         {
@@ -70,8 +69,7 @@
         "url": "https://github.com/rongxingda/dsh-prompt-enhance"
       },
       "metadata": {
-        "category": "prompt-workflow",
-        "labels": ["提示词", "预览后应用"]
+        "category": "prompt-workflow"
       },
       "versions": [
         {
